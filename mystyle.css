@@ -1,7 +1,43 @@
-h1 {
-	color: red;
+/*Navigation Section*/
+
+.top-navigation .links {
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	color: #838994;
+	font-size: 16px;
+	margin-top:25px;
+	-webkit-font-smoothing: antialiased;
+
 }
+li {
+	display: inline-block;
+	float: right;
+	margin: 25px;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+.top-navigation .links .active{
+	color:#4c5058;
+	font-weight:500;
+
+}
+.top-navigation .links li:hover{
+	cursor:crosshair;
+	color:#333333;
+}
+
 body {
-	background-color: violet;
-	text-align:center;
+	padding-top: 50px;
+}
+
+.footer > .ol{
+	position: center;
 }
